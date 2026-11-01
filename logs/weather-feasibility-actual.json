@@ -1,0 +1,45 @@
+{
+  "weather": {
+    "source": "Open-Meteo weather models",
+    "kind": "model estimate / forecast",
+    "valid_at": "2026-10-18T15:15:00+00:00",
+    "temperature_c": 26.8,
+    "humidity_pct": 77.0,
+    "rain_current_mm": 0.0,
+    "rain_interval_seconds": 900,
+    "rain_past24_mm": 0.0,
+    "rain_next24_mm": 0.0,
+    "max_rain_probability_pct": 0.0,
+    "soil_moisture": 0.21,
+    "grid_lat": 22.811949,
+    "grid_lon": 89.53125,
+    "source_url": "https://open-meteo.com/en/docs",
+    "fetched_at": "2026-10-18T15:16:45.667283+00:00",
+    "backup_used": false
+  },
+  "river": {
+    "source": "Copernicus GloFAS via Open-Meteo",
+    "kind": "modelled discharge, not a river gauge",
+    "valid_date": "2026-10-18",
+    "discharge_m3s": 217.78,
+    "peak_next3_m3s": 212.3,
+    "change_next3_pct": -2.516300854072917,
+    "past30_p75_m3s": 331.46750000000003,
+    "grid_lat": 22.825005,
+    "grid_lon": 89.525024,
+    "source_url": "https://open-meteo.com/en/docs/flood-api",
+    "fetched_at": "2026-10-18T15:16:46.721526+00:00"
+  },
+  "reports": {
+    "source": "GDACS public flood reports",
+    "examined": 9,
+    "nearby": [],
+    "radius_km": 100,
+    "fetched_at": "2026-10-18T15:16:49.726158+00:00",
+    "source_url": "https://www.gdacs.org/xml/rss.xml"
+  },
+  "signal": {
+    "level": "NO ELEVATED SIGNAL IN AVAILABLE DATA",
+    "reason": "Available rainfall and discharge forecasts do not trigger the prototype rules. This does not establish that the area is flood-free."
+  }
+}

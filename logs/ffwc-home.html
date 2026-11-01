@@ -1,0 +1,60 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <title>Flood Forecasting &amp; Warning Centre, BWDB, Bangladesh</title>
+  <base href="/">
+  
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">  
+  <meta http-equiv="Pragma" content="no-cache">  
+  <meta http-equiv="Expires" content="0"> 
+  <meta http-equiv="Content-Security-Policy">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-signin-client_id" content="369245216430-df9vs8ach9bl2aug021qvpe0u66d8cqb.apps.googleusercontent.com">
+  <meta name="google-site-verification" content="TN3Q7Ahp3B-j6x0iN6dl-aa6WPN-k067LTkF7vdffYQ">
+    <!-- Google tag (gtag.js) -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2XT94H0PGP"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-2XT94H0PGP');
+    </script>
+
+ 
+  <style>@media print{}</style><link rel="stylesheet" href="/assets/css/leaflet.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/assets/css/leaflet.css"></noscript>
+   
+  <link rel="stylesheet" href="/assets/css/MarkerCluster.Default.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/assets/css/MarkerCluster.Default.css"></noscript>
+
+  <style>.mat-typography{font:400 14px/20px Roboto, "Helvetica Neue", sans-serif;letter-spacing:normal}</style><link rel="stylesheet" href="/assets/css/indigo-pink.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/assets/css/indigo-pink.css"></noscript>
+
+  <script src="assets/js/apexcharts.min.js" crossorigin="anonymous"></script>
+
+
+  <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
+
+  <style>@charset "UTF-8";:root{--bs-blue:#0d6efd;--bs-indigo:#6610f2;--bs-purple:#6f42c1;--bs-pink:#d63384;--bs-red:#dc3545;--bs-orange:#fd7e14;--bs-yellow:#ffc107;--bs-green:#198754;--bs-teal:#20c997;--bs-cyan:#0dcaf0;--bs-black:#000;--bs-white:#fff;--bs-gray:#6c757d;--bs-gray-dark:#343a40;--bs-gray-100:#f8f9fa;--bs-gray-200:#e9ecef;--bs-gray-300:#dee2e6;--bs-gray-400:#ced4da;--bs-gray-500:#adb5bd;--bs-gray-600:#6c757d;--bs-gray-700:#495057;--bs-gray-800:#343a40;--bs-gray-900:#212529;--bs-primary:#0d6efd;--bs-secondary:#6c757d;--bs-success:#198754;--bs-info:#0dcaf0;--bs-warning:#ffc107;--bs-danger:#dc3545;--bs-light:#f8f9fa;--bs-dark:#212529;--bs-primary-rgb:13,110,253;--bs-secondary-rgb:108,117,125;--bs-success-rgb:25,135,84;--bs-info-rgb:13,202,240;--bs-warning-rgb:255,193,7;--bs-danger-rgb:220,53,69;--bs-light-rgb:248,249,250;--bs-dark-rgb:33,37,41;--bs-primary-text-emphasis:#052c65;--bs-secondary-text-emphasis:#2b2f32;--bs-success-text-emphasis:#0a3622;--bs-info-text-emphasis:#055160;--bs-warning-text-emphasis:#664d03;--bs-danger-text-emphasis:#58151c;--bs-light-text-emphasis:#495057;--bs-dark-text-emphasis:#495057;--bs-primary-bg-subtle:#cfe2ff;--bs-secondary-bg-subtle:#e2e3e5;--bs-success-bg-subtle:#d1e7dd;--bs-info-bg-subtle:#cff4fc;--bs-warning-bg-subtle:#fff3cd;--bs-danger-bg-subtle:#f8d7da;--bs-light-bg-subtle:#fcfcfd;--bs-dark-bg-subtle:#ced4da;--bs-primary-border-subtle:#9ec5fe;--bs-secondary-border-subtle:#c4c8cb;--bs-success-border-subtle:#a3cfbb;--bs-info-border-subtle:#9eeaf9;--bs-warning-border-subtle:#ffe69c;--bs-danger-border-subtle:#f1aeb5;--bs-light-border-subtle:#e9ecef;--bs-dark-border-subtle:#adb5bd;--bs-white-rgb:255,255,255;--bs-black-rgb:0,0,0;--bs-font-sans-serif:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--bs-font-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;--bs-gradient:linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));--bs-body-font-family:var(--bs-font-sans-serif);--bs-body-font-size:1rem;--bs-body-font-weight:400;--bs-body-line-height:1.5;--bs-body-color:#212529;--bs-body-color-rgb:33,37,41;--bs-body-bg:#fff;--bs-body-bg-rgb:255,255,255;--bs-emphasis-color:#000;--bs-emphasis-color-rgb:0,0,0;--bs-secondary-color:rgba(33, 37, 41, 0.75);--bs-secondary-color-rgb:33,37,41;--bs-secondary-bg:#e9ecef;--bs-secondary-bg-rgb:233,236,239;--bs-tertiary-color:rgba(33, 37, 41, 0.5);--bs-tertiary-color-rgb:33,37,41;--bs-tertiary-bg:#f8f9fa;--bs-tertiary-bg-rgb:248,249,250;--bs-heading-color:inherit;--bs-link-color:#0d6efd;--bs-link-color-rgb:13,110,253;--bs-link-decoration:underline;--bs-link-hover-color:#0a58ca;--bs-link-hover-color-rgb:10,88,202;--bs-code-color:#d63384;--bs-highlight-color:#212529;--bs-highlight-bg:#fff3cd;--bs-border-width:1px;--bs-border-style:solid;--bs-border-color:#dee2e6;--bs-border-color-translucent:rgba(0, 0, 0, 0.175);--bs-border-radius:0.375rem;--bs-border-radius-sm:0.25rem;--bs-border-radius-lg:0.5rem;--bs-border-radius-xl:1rem;--bs-border-radius-xxl:2rem;--bs-border-radius-2xl:var(--bs-border-radius-xxl);--bs-border-radius-pill:50rem;--bs-box-shadow:0 0.5rem 1rem rgba(0, 0, 0, 0.15);--bs-box-shadow-sm:0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);--bs-box-shadow-lg:0 1rem 3rem rgba(0, 0, 0, 0.175);--bs-box-shadow-inset:inset 0 1px 2px rgba(0, 0, 0, 0.075);--bs-focus-ring-width:0.25rem;--bs-focus-ring-opacity:0.25;--bs-focus-ring-color:rgba(13, 110, 253, 0.25);--bs-form-valid-color:#198754;--bs-form-valid-border-color:#198754;--bs-form-invalid-color:#dc3545;--bs-form-invalid-border-color:#dc3545}*,::after,::before{box-sizing:border-box}@media (prefers-reduced-motion:no-preference){:root{scroll-behavior:smooth}}body{margin:0;font-family:var(--bs-body-font-family);font-size:var(--bs-body-font-size);font-weight:var(--bs-body-font-weight);line-height:var(--bs-body-line-height);color:var(--bs-body-color);text-align:var(--bs-body-text-align);background-color:var(--bs-body-bg);-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}:root{--bs-breakpoint-xs:0;--bs-breakpoint-sm:576px;--bs-breakpoint-md:768px;--bs-breakpoint-lg:992px;--bs-breakpoint-xl:1200px;--bs-breakpoint-xxl:1400px}</style><link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css"></noscript>
+  <script src="/assets/bootstrap/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" type="text/css" href="/assets/css/leafpatch.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/assets/css/leafpatch.css"></noscript>
+
+  <script src="https://apis.google.com/js/platform.js" async="" defer></script>
+
+  <script src="https://apis.google.com/js/platform.js?onload=init" async="" defer></script>
+
+  <script src="https://accounts.google.com/gsi/client" async="" defer></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/earthengine/0.1.226/earthengine-api.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;language=en"></script>
+
+
+<style>@charset "UTF-8";@font-face{font-family:IBM Plex Sans;font-style:normal;font-weight:300;font-display:swap;src:url(ibm-plex-sans-latin-300-normal.5d8f97bcc15e200b.woff2) format("woff2")}@font-face{font-family:IBM Plex Sans;font-style:normal;font-weight:400;font-display:swap;src:url(ibm-plex-sans-latin-400-normal.13a15bcdfeddab65.woff2) format("woff2")}@font-face{font-family:IBM Plex Sans;font-style:normal;font-weight:500;font-display:swap;src:url(ibm-plex-sans-latin-500-normal.4cdcd386d2ac59c8.woff2) format("woff2")}@font-face{font-family:IBM Plex Sans;font-style:normal;font-weight:600;font-display:swap;src:url(ibm-plex-sans-latin-600-normal.1cdb9a2cbcaafa7e.woff2) format("woff2")}@font-face{font-family:IBM Plex Sans;font-style:normal;font-weight:700;font-display:swap;src:url(ibm-plex-sans-latin-700-normal.45cdbe8ded19ae08.woff2) format("woff2")}@font-face{font-family:IBM Plex Sans;font-style:italic;font-weight:400;font-display:swap;src:url(ibm-plex-sans-latin-400-italic.7c7f8877a12f66a2.woff2) format("woff2")}@font-face{font-family:IBM Plex Mono;font-style:normal;font-weight:400;font-display:swap;src:url(ibm-plex-mono-latin-400-normal.06ac09dcb8ec7d56.woff2) format("woff2")}@font-face{font-family:IBM Plex Mono;font-style:normal;font-weight:500;font-display:swap;src:url(ibm-plex-mono-latin-500-normal.dece0821e8ed059f.woff2) format("woff2")}@font-face{font-family:IBM Plex Mono;font-style:normal;font-weight:600;font-display:swap;src:url(ibm-plex-mono-latin-600-normal.422bb7078d9b61dc.woff2) format("woff2")}@font-face{font-family:IBM Plex Mono;font-style:normal;font-weight:700;font-display:swap;src:url(ibm-plex-mono-latin-700-normal.49ea3fe8282ee5be.woff2) format("woff2")}@font-face{font-family:Noto Sans Bengali;font-style:normal;font-weight:400;font-display:swap;src:url(noto-sans-bengali-bengali-400-normal.80758651bce0b550.woff2) format("woff2")}@font-face{font-family:Noto Sans Bengali;font-style:normal;font-weight:500;font-display:swap;src:url(noto-sans-bengali-bengali-500-normal.289d953db5c7ba0a.woff2) format("woff2")}@font-face{font-family:Noto Sans Bengali;font-style:normal;font-weight:600;font-display:swap;src:url(noto-sans-bengali-bengali-600-normal.8869eb9518f147d0.woff2) format("woff2")}@font-face{font-family:Noto Sans Bengali;font-style:normal;font-weight:700;font-display:swap;src:url(noto-sans-bengali-bengali-700-normal.4a3376af5a90a88a.woff2) format("woff2")}@font-face{font-family:IBM Plex Numerals;font-style:normal;font-weight:400;font-display:swap;src:url(ibm-plex-mono-latin-400-normal.06ac09dcb8ec7d56.woff2) format("woff2");unicode-range:U+0030-0039,U+0025,U+002B,U+00B0,U+00D7,U+2212,U+2032-2033}@font-face{font-family:IBM Plex Numerals;font-style:normal;font-weight:500;font-display:swap;src:url(ibm-plex-mono-latin-500-normal.dece0821e8ed059f.woff2) format("woff2");unicode-range:U+0030-0039,U+0025,U+002B,U+00B0,U+00D7,U+2212,U+2032-2033}@font-face{font-family:IBM Plex Numerals;font-style:normal;font-weight:600;font-display:swap;src:url(ibm-plex-mono-latin-600-normal.422bb7078d9b61dc.woff2) format("woff2");unicode-range:U+0030-0039,U+0025,U+002B,U+00B0,U+00D7,U+2212,U+2032-2033}@font-face{font-family:IBM Plex Numerals;font-style:normal;font-weight:700;font-display:swap;src:url(ibm-plex-mono-latin-700-normal.49ea3fe8282ee5be.woff2) format("woff2");unicode-range:U+0030-0039,U+0025,U+002B,U+00B0,U+00D7,U+2212,U+2032-2033}:root{--font-sans:"IBM Plex Numerals", "IBM Plex Sans", "Noto Sans Bengali", system-ui, -apple-system, "Segoe UI", sans-serif;--font-mono:"IBM Plex Mono", "Noto Sans Bengali", ui-monospace, SFMono-Regular, Menlo, monospace;--bs-font-sans-serif:var(--font-sans);--bs-font-monospace:var(--font-mono);--bs-body-font-family:var(--font-sans)}html [class^=mat-]{font-family:var(--font-sans)}*{font-family:var(--font-sans);font-size:unset}html,body{height:100%;-webkit-text-size-adjust:100%;text-size-adjust:100%}body{margin:0;font-family:var(--font-sans);background-color:#f8f9fa}:root{--shell-header-height:70px;--shell-view-height:calc(100vh - var(--shell-header-height));--shell-view-height:calc(100dvh - var(--shell-header-height))}</style><link rel="stylesheet" href="styles.998b72c0f7cf43d1.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.998b72c0f7cf43d1.css"></noscript></head>
+
+<body class="mat-typography">
+  <app-root></app-root>
+<script src="runtime.2d38c27c332df0d1.js" type="module"></script><script src="polyfills.53c52b7cec6c3212.js" type="module"></script><script src="scripts.83aca2ea6f86885c.js" defer></script><script src="main.3256d94b31f39e5f.js" type="module"></script>
+
+</body></html>
